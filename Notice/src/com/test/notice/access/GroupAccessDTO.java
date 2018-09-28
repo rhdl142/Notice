@@ -4,6 +4,7 @@ public class GroupAccessDTO {
 	private String seq;
 	private String noticeSeq;
 	private String groupSeq;
+	private String userSeq;
 	
 	public String getSeq() {
 		return seq;
@@ -26,5 +27,11 @@ public class GroupAccessDTO {
 	@Override
 	public String toString() {
 		return "GroupAccessDTO [seq=" + seq + ", noticeSeq=" + noticeSeq + ", groupSeq=" + groupSeq + "]";
+	}
+	public String getUserSeq() {
+		return userSeq;
+	}
+	public void setUserSeq(String userSeq) {
+		this.userSeq = userSeq;
 	}
 }
