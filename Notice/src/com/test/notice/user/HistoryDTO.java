@@ -5,6 +5,7 @@ public class HistoryDTO {
 	private String login;
 	private String logout;
 	private String userSeq;
+	private int time;
 	
 	public String getSeq() {
 		return seq;
@@ -29,6 +30,12 @@ public class HistoryDTO {
 	}
 	public void setUserSeq(String userSeq) {
 		this.userSeq = userSeq;
+	}
+	public int getTime() {
+		return time;
+	}
+	public void setTime(int time) {
+		this.time = time;
 	}
 	@Override
 	public String toString() {
