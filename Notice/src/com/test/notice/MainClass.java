@@ -17,7 +17,7 @@ public class MainClass {
 	public static String name;
 	public static String seq;
 	public static boolean isAdmin;//관리자? 유저?
-	
+
 	static {
 		scan = new UtilScanner();
 		out = new UtilPrint();
